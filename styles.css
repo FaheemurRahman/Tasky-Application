@@ -1,0 +1,36 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #abf2ff !important;
+}
+
+.add_new_btn__forsmall{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px 10px;
+    z-index: 3;
+}
+#plus{
+    padding-top: 4.2%;
+}
+
+#smallButton{
+    position: absolute;
+    bottom: 100%;
+    z-index: 1000;
+}
+/* used bootstrap line no:63
+@media (min-width: 700px) {
+    .add_new_btn__forsmall{
+        display: none;
+    }
+}
+*/
+
